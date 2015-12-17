@@ -1,0 +1,20 @@
+{
+  "name": "Pubit",
+  "scripts": {
+  },
+  "env": {
+    "AUTH_PASS": {
+      "required": true
+    },
+    "AUTH_USER": {
+      "required": true
+    },
+    "BUILDPACK_URL": {
+      "required": true
+    }
+  },
+  "addons": [
+    "errorapp",
+    "heroku-postgresql"
+  ]
+}
